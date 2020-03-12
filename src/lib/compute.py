@@ -4,7 +4,10 @@ class Compute:
         self.operands=operands
 
     def add(self):
-        pass
+        sumval=0
+        for item in self.operands:
+            sumval+=item
+        print(sumval)
 
     def subtract(self):
         difference = 0
